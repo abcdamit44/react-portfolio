@@ -176,47 +176,6 @@ nav {
 /* Banenr END */
 
 
-/* About Section  */
-
-.about {
-    height: 100vh;
-    padding-top: 9vw;
-}
-
-.about h2 {
-    font-size: 2.5vw;
-    color: #ED462F;
-    margin-bottom: 3vw;
-}
-
-.about p {
-    font-size: 1.3vw;
-    font-weight: 600;
-    width: 70%;
-    line-height: 1.7;
-}
-
-.about a {
-    text-decoration: none;
-    color: royalblue;
-    font-weight: 600;
-    font-size: 1.6vw;
-    display: inline-block;
-    margin-top: 2vw;
-}
-
-.about a>span {
-    font-weight: 800;
-    font-size: 2vw;
-    transition: 300ms ease-in-out;
-}
-
-.about a:hover>span {
-    margin-left: 0.5vw;
-}
-
-
-/* About Section END */
 
 
 /* projects Section  */
