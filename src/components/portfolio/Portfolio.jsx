@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './Home';
-import About from './About';
-import Project from './Project';
-import Contact from './Contact';
-import Blog from './Blog';
+import Home from '../Home';
+import About from '../about/About';
+import Project from '../projects/Project';
+import Contact from '../Contact';
+import Blog from '../Blog';
 import {
     Routes,
     Route,

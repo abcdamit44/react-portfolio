@@ -46,12 +46,12 @@
     margin: 2.25rem 0;
 }
 
-.img-box a {
+.img-box span {
     width: 24%;
     margin: 0.25%;
 }
 
-.img-box a img {
+.img-box span img {
     width: 100%;
 }
 

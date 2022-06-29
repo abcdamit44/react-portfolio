@@ -54,7 +54,7 @@ const Home = () => {
                         Nemo voluptate vero illum.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum culpa expedita distinctio assumenda tempore officiis quae cupiditate eaque nulla vitae.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum culpa expedita distinctio assumenda tempore officiis quae cupiditate eaque nulla vitae.</p>
-                    <NavLink to="/projects">Let's Start <span>&rarr;</span></NavLink>
+                    <NavLink to="/about">Read More <span>&rarr;</span></NavLink>
                 </div>
             </div>
             {/* <!-- About Section END --> */}
@@ -109,6 +109,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                    <NavLink to="/project">View All <span>&rarr;</span></NavLink>
                 </div>
             </div>
             {/* <!-- projects Section END --> */}
