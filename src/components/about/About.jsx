@@ -10,7 +10,7 @@ const About = () => {
         <>
             {/* <!-- About Section --> */}
             <div className="container" id="about">
-                <div className="about" style={{ textAlign: "center" }}>
+                <div className="about about-single" style={{ textAlign: "center" }}>
                     <h2>About</h2>
                     <p style={{ margin: "auto" }}>My Name is Amit Kumar Singh. I am from Bokaro Steel City. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate, error a aperiam asperiores sed minus facilis, qui aspernatur inventore excepturi sit quidem nesciunt, quis odit.
                         Nemo voluptate vero illum.</p>

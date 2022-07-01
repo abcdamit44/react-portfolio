@@ -22,3 +22,71 @@
 .projects a:hover>span {
     margin-left: 0.5vw;
 }
+
+
+.project-single .content {
+    width: 58%;
+}
+
+
+.project-single .content h3 {
+    font-size: 2.25vw;
+    color: yellow;
+    margin: 1.25rem 0;
+    text-align: start;
+}
+
+.project-single .content p {
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.15rem;
+}
+
+.project-single .project-snap {
+    /* width: 40%; */
+}
+
+.project-single a {
+    display: block;
+    text-align: start;
+}
+
+
+
+/* Responsive */
+
+@media (max-width:768px) {
+    .project-single .content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .project-single .project-snap {
+        width: 90%;
+        margin: auto;
+    }
+
+    .project-single .content h3 {
+        font-size: 5.25vw;
+        text-align: center;
+    }
+
+    .project-single h2 {
+        font-size: 7.25vw;
+    }
+
+    .project-single .content p {
+        text-align: center;
+        line-height: 1.25rem;
+        font-size: 0.85rem;
+    }
+
+    .projects a {
+        text-align: center;
+        font-size: 3.6vw;
+    }
+
+    .projects a>span {
+        font-size: 3.5vw;
+    }
+}

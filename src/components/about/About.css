@@ -57,3 +57,11 @@
 
 
 /* About Section END */
+
+
+/* Responsive */
+@media(max-width:768px) {
+    .about-single {
+        height: 100vh;
+    }
+}
