@@ -2,7 +2,7 @@ import React from 'react';
 import Home from '../Home';
 import About from '../about/About';
 import Project from '../projects/Project';
-import Contact from '../Contact';
+import Contact from '../contact/Contact';
 import Blog from '../Blog';
 import {
     Routes,

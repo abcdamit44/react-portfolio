@@ -44,6 +44,10 @@ body {
   margin-bottom: 5vw;
 }
 
+.ms-3 {
+  margin-left: 1.25vw;
+}
+
 .d-flex {
   display: flex;
 }
@@ -64,7 +68,13 @@ body {
   justify-content: flex-end;
 }
 
+.text-red {
+  color: #ED462F;
+}
 
+.text-white {
+  color: #fff;
+}
 
 /* Important style END */
 
@@ -108,7 +118,7 @@ nav {
 /* Navbar END */
 
 
-/* Banenr  */
+/* Banner  */
 
 .banner {
   margin-block-start: 13vw;
@@ -178,7 +188,7 @@ nav {
 }
 
 
-/* Banenr END */
+/* Banner END */
 
 
 
@@ -221,7 +231,7 @@ nav {
   transform: scale(1);
 }
 
-.projects .card .card-body {}
+/* .projects .card .card-body {} */
 
 .projects .card .card-body .card-title {
   text-align: center;
@@ -557,16 +567,6 @@ footer p {
     font-size: 0.85rem;
   }
 
-  .contact input[type=text],
-  .contact input[type=email],
-  textarea {
-    font-size: 0.65rem;
-  }
-
-  .contact button {
-    font-size: 1rem;
-    margin: 1rem 0;
-  }
 
   footer p {
     font-size: 0.65rem;
