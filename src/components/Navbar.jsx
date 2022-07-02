@@ -3,6 +3,7 @@ import Logo from "../images/logo.png";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
     return (
         <>
             {/* <!-- Navbar --> */}
@@ -14,11 +15,11 @@ const Navbar = () => {
                         </div>
                         <div className="nav-links d-flex justify-content-end">
                             <ul className="d-flex justify-content-end w-100">
-                                <li><NavLink to="/">Home</NavLink></li>
-                                <li><NavLink to="/blog">Blog</NavLink></li>
-                                <li><NavLink to="/about">About</NavLink></li>
-                                <li><NavLink to="/project">Projects</NavLink></li>
-                                <li><NavLink to="/contact">Contact</NavLink></li>
+                                <li><NavLink to="/" >Home</NavLink></li>
+                                <li><NavLink to="/blog" >Blog</NavLink></li>
+                                <li><NavLink to="/about" >About</NavLink></li>
+                                <li><NavLink to="/project" >Projects</NavLink></li>
+                                <li><NavLink to="/contact" >Contact</NavLink></li>
                             </ul>
                         </div>
                     </div>

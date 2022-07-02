@@ -27,7 +27,7 @@
 /* Responsive */
 @media(max-width:768px) {
     .contact-single {
-        height: 80vh;
+        height: 100vh;
     }
 
     .contact-single h2 {

@@ -76,6 +76,10 @@ body {
   color: #fff;
 }
 
+.active {
+  color: #f13218 !important;
+}
+
 /* Important style END */
 
 
