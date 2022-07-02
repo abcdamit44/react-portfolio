@@ -82,6 +82,7 @@ body {
 
 .active {
   color: #f13218 !important;
+  font-weight: 800 !important;
 }
 
 /* Important style END */
