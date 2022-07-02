@@ -64,4 +64,22 @@
     .about-single {
         height: 100vh;
     }
+
+    .about h2 {
+        font-size: 1.5rem !important;
+        margin-bottom: 1.0rem !important;
+        text-align: center;
+    }
+
+    .about a {
+        font-size: 3.6vw;
+        display: block;
+        text-align: center;
+    }
+
+    .about p {
+        font-size: 2.5vw;
+        width: 100%;
+        line-height: 1.7;
+    }
 }

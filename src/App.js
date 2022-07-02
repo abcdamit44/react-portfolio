@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import Portfolio from './components/portfolio/Portfolio';
 import {
   BrowserRouter,

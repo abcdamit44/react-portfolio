@@ -52,6 +52,10 @@ body {
   display: flex;
 }
 
+.position-relative {
+  position: relative;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -95,7 +99,7 @@ body {
 }
 
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 2;
@@ -410,6 +414,18 @@ footer p {
 
 /* Responsive CSS */
 @media(max-width:768px) {
+  .flex-sm-column {
+    flex-direction: column;
+  }
+
+  .align-items-sm-center {
+    align-items: center;
+  }
+
+  .justify-content-sm-between {
+    justify-content: space-between !important;
+  }
+
   .container {
     width: 90%;
   }
@@ -418,10 +434,8 @@ footer p {
     flex-direction: column-reverse;
   }
 
-
-
   .nav-links ul li a {
-    font-size: 0.5rem;
+    font-size: .5rem;
   }
 
   .banner {

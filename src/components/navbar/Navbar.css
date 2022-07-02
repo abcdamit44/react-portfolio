@@ -1,0 +1,23 @@
+  .mob-menu {
+      display: none;
+  }
+
+  /* Responsive */
+  @media(max-width:768px) {
+      .nav-links ul li {
+          margin-left: 0%;
+      }
+
+      .logo {
+          width: 30%;
+          align-self: start;
+      }
+
+      .mob-menu {
+          display: block;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          cursor: pointer;
+      }
+  }
