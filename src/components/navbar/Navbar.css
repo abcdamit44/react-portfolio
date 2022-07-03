@@ -2,8 +2,11 @@
       display: none;
   }
 
+
+
   /* Responsive */
   @media(max-width:768px) {
+
       .nav-links ul li {
           margin: 0.25rem 0%;
       }

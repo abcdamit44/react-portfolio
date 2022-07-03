@@ -85,6 +85,10 @@ body {
   font-weight: 800 !important;
 }
 
+.hide {
+  display: none;
+}
+
 /* Important style END */
 
 
