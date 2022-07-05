@@ -18,7 +18,7 @@ const Navbar = () => {
                             <NavLink to="/"><img src={Logo} alt="" /></NavLink>
                         </div>
                         <div className="nav-links d-flex justify-content-end">
-                            <ul className="d-flex justify-content-end w-100 flex-sm-column align-items-sm-center" style={{ display: menu ? "none" : "" }}>
+                            <ul className={menu ? "nav-menu-mobile" : "nav-menu"}>
                                 <li><NavLink to="/" >Home</NavLink></li>
                                 <li><NavLink to="/blog" >Blog</NavLink></li>
                                 <li><NavLink to="/about" >About</NavLink></li>
@@ -29,12 +29,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='mob-menu' onClick={() => {
-                    console.log(menu, "before")
                     setMenu(!menu)
-                    console.log(menu, "after")
+                }}>{menu ? (<i className="fa-solid fa-times"></i>) : (<i className="fa-solid fa-bars"></i>)}
 
-                }}>
-                    <i className="fa-solid fa-bars"></i>
                 </div>
             </nav>
             {/* <!-- Navbar END --> */}

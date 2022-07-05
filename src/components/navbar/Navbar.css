@@ -2,10 +2,31 @@
       display: none;
   }
 
+  .nav-menu {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+  }
 
 
   /* Responsive */
   @media(max-width:768px) {
+      .nav-menu {
+          display: none;
+      }
+
+      .nav-menu-mobile {
+          position: absolute;
+          top: 65px;
+          left: 0;
+          right: 0;
+          display: block;
+          text-align: center;
+          background-color: rgba(0, 0, 0, 0.35);
+          transition: all 0.5s ease-out;
+          width: 100%;
+      }
+
 
       .nav-links ul li {
           margin: 0.25rem 0%;
